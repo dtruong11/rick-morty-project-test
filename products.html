@@ -1,0 +1,148 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link rel="stylesheet" href="/style/products.css">
+  <title>Products</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="heading">
+        <h1 class="display-4">"Shop All "
+            <span>products</span>
+          </h1>
+      </div>
+    </div>
+    <hr>
+
+    <div class="product-listing row">
+      <div class="sidebar col-3">
+        <div class="sorter">
+          <h4>By <span>Category</span></h4>
+          <ul class="category">
+            <li><a data-category="all" href="#">All</a></li>
+            <li><a data-category="rick" href="#">Rick</a></li>
+            <li><a data-category="morty" href="#">Morty</a></li>
+            <li><a data-category="tech" href="#">Tech</a></li>
+            <li><a data-category="sale" href="#">Sale</a></li>
+          </ul>
+        </div>
+
+        <div class="sorter">
+          <h4>By <span>Price</span></h4>
+          <ul class="prices">
+            <li><a data-price="all" href="#">All</a></li>
+            <li>
+              <a data-price="25" href="#">
+                < $25</a>
+            </li>
+            <li><a data-price="50" href="#">$25 - $50</a></li>
+            <li><a data-price="75" href="#">$50 - $75</a></li>
+            <li><a data-price="100" href="#">$75 - $100</a></li>
+            <li><a data-price="above" href="#">> $100</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-9">
+        <div class="row">
+          <div class="product rick col-xs-4">
+            <div class="product-img">
+              <img src="http://placehold.it/300?text=rick">
+            </div>
+            <h5>Product Name</h5>
+            <h6>$ <span>30.00</span></h6>
+          </div>
+          <div class="product morty col-xs-4">
+            <div class="product-img">
+              <img src="http://placehold.it/300?text=morty">
+            </div>
+            <h5>Product Name</h5>
+            <h6>$ <span>60.00</span></h6>
+          </div>
+          <div class="product tech col-xs-4">
+            <div class="product-img">
+              <img src="http://placehold.it/300?text=tech">
+            </div>
+            <h5>Product Name</h5>
+            <h6>$ <span>50.00</span></h6>
+          </div>
+          <div class="product rick sale col-xs-4">
+            <div class="product-img">
+              <img src="http://placehold.it/300?text=rick%20sale">
+            </div>
+            <h5>Product Name</h5>
+            <h6>$ <span>15.00</span></h6>
+          </div>
+          <div class="product morty sale col-xs-4">
+            <div class="product-img">
+              <img src="http://placehold.it/300?text=morty%20sale">
+            </div>
+            <h5>Product Name</h5>
+            <h6>$ <span>10.00</span></h6>
+          </div>
+          <div class="product tech sale col-xs-4">
+            <div class="product-img">
+              <img src="http://placehold.it/300?text=tech%20sale">
+            </div>
+            <h5>Product Name</h5>
+            <h6>$ <span>137.00</span></h6>
+          </div>
+          <div class="product tech good col-xs-4">
+            <div class="product-img">
+              <img src="http://placehold.it/300?text=good%20tech">
+            </div>
+            <h5>Product Name</h5>
+            <h6>$ <span>89.00</span></h6>
+          </div>
+          <div class="product tech evil col-xs-4">
+            <div class="product-img">
+              <img src="http://placehold.it/300?text=evil%20tech">
+            </div>
+            <h5>Product Name</h5>
+            <h6>$ <span>55.00</span></h6>
+          </div>
+          <div class="product rick morty sale col-xs-4">
+            <div class="product-img">
+              <img src="http://placehold.it/300?text=rick%20morty%20sale">
+            </div>
+            <h5>Product Name</h5>
+            <h6>$ <span>45.00</span></h6>
+          </div>
+          <div class="product rick col-xs-4">
+            <div class="product-img">
+              <img src="http://placehold.it/300?text=rick">
+            </div>
+            <h5>Product Name</h5>
+            <h6>$ <span>48.00</span></h6>
+          </div>
+          <div class="product rick col-xs-4">
+            <div class="product-img">
+              <img src="http://placehold.it/300?text=rick">
+            </div>
+            <h5>Product Name</h5>
+            <h6>$ <span>22.00</span></h6>
+          </div>
+          <div class="product morty col-xs-4">
+            <div class="product-img">
+              <img src="http://placehold.it/300?text=morty">
+            </div>
+            <h5>Product Name</h5>
+            <h6>$ <span>12.00</span></h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</body>
+
+</html>
