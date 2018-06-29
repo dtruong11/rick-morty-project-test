@@ -13,6 +13,7 @@
 
     if ($(this).data('category')) {
       sortByCategory(this)
+      console.log(this)
     } else if ($(this).data('price')) {
       sortByPrice(this)
     } else {
